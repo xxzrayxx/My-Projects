@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charse="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Complete Portfolio Website</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+<!-------------------Link to header----------------------->
+<header>
+   <a href="#" class="logo">Portfo<span>lio</span></a>
+   <div class="bx bx-menu" id="menu-icon"></div>
+
+   <ul class="navbar">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Resume">Resume</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      
+
+   </ul>
+</header>
+<!-------------------Start  Home---------------------->
+<section class="home" id="home">
+   <div class="home-text">
+      <h5>Hello, I am</h5>
+      <h1>Zaria Raymond</h1>
+      <h6>I am an aspiring Frond-end Web <span>Developer</span></h6>
+      <p>I am a hardworking individual seeking to break into the front-end developement scene.</p>
+      <a href="#" class="btn">Download CV</a>
+   </div>
+
+   <div class="home-img">
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/14370413_1227488217318830_961997566688657451_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xRnFSYEAj5gAX9nefBG&_nc_ht=scontent-lga3-1.xx&oh=00_AT_qdU-KCtkCCQd8WH-ovzlyqwveXj_4dQMW8kcwhMax-g&oe=62D5FD22">
+   </div>
+</section>
+<!-------------------Start  About---------------------->
+<section class="about" id="about">
+   <div>
+      <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/29572667_10215064262749612_3599038808902384267_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=gPF8KLyN6DwAX_RWcVC&tn=AZDHkBJBr7xeOtik&_nc_ht=scontent-lga3-1.xx&oh=00_AT-0pfU_-WmMP-Va0l1t0P5C6fSU7377_25jqBuVcDhG-w&oe=62D6FAEC">
+   </div>
+   <div class="about-text">
+      <h3>ABOUT ME</h3>
+      <h2>I am a self-taught Front-end Web Developer looking to break into the field.</h2>
+      <p> My schooling and background are in Clinical Psychology, however I love to learn and am open to learn new concepts and ideas in order to grow as a Web Developer</p>
+      <div class="count">
+         <a href="#"><span>5K</span>Projects Completed</a>
+         <a href="#"><span>5K</span>Javascript Applications</a>
+      </div>
+
+      <div class="main-btn">
+         <a href = "#" class="btn">Contact Me</a>
+         <a href = "#" class="btn">Portfolio</a>
+      </div>
+   </div>
+</section>
+<!-------------------Start  Services---------------------->
+<section class="services" id="services">
+   <div class="center">
+      <h3>WHAT I DO</h3>
+   </div>
+   <div class="service-content">
+      <div class="row">
+         <i class='bx bx-cast'></i>
+         <h3>Web Development</h3>
+         <p>Custom basic websites to make your dreams become reality</p>
+
+      </div>
+   </div>
+   <div class="service-content">
+      <div class="row">
+         <i class='bx bx-envelope' ></i>
+         <h3>HTML email Development</h3>
+         <p>Creating newsletters and Ads to send to subscribers/customers for any business</p>
+
+      </div>
+   </div>
+   <div class="service-content">
+      <div class="row">
+         <i class='bx bxl-javascript' ></i>
+         <h3>Javascript Applications</h3>
+         <p>Basic Javascript applications to play games with your friends or for general use.</p>
+
+      </div>
+   </div>
+   <div class="service-content">
+      <div class="row">
+         <i class='bx bx-cart-add' ></i>
+         <h3>E-Commerce Development</h3>
+         <p>Bring your business online and gain new customers through an online store/market place. Hire me for any customizations and fixes. </p>
+
+      </div>
+   </div>
+  
+</section>
+<!-------------------Start  Services---------------------->
+<section class="cta">
+   <h4>Have Any Projects in Mind?</h4>
+   <h2>Contact Me!</h2>
+   <a href="#" class="btn">Hire Me</a>
+
+</section>
+<!-------------------Start  Resume---------------------->
+<section class="resume" id="resume">
+   <div class="center">
+      <h3>Education & Experience</h3>
+   </div>
+   
+   <div class="resume-content">
+      <div class="box">
+         <h6>Research Assistant</h6>
+         <h4>Jan 2015- May 2017</h4>
+         <p>Aided in conducting structured interviews with participants and transcribed them. Conducted literature searches, managed data, recruits participants, obtains consents, maintains files, schedules interviews, and maintained data collection files, assisted with data analysis, reports and graphics. </p>
+         <h5>Montclair State University</h5>
+      </div>
+   </div>
+   <div class="resume-content">
+      <div class="box">
+         <h6>Mental Health Technician</h6>
+         <h4>Nov 2018- Oct 2021</h4>
+         <p>Ensured the comfort of patients during and between treatments. Provided transport to and from treatments. Measured vital signs and took samples of urine, stool, or sputum as needed by the healthcare provider. Tracked any behavioral changes in patients that may be of use to healthcare providers.Assisted nurses in primary care, as well as counselors and social workers in the care of patients and ensured patients got the proper care according to the unit they were on.</p>
+         <h5>Carier Clinic</h5>
+      </div>
+   </div>
+   <div class="resume-content">
+      <div class="box">
+         <h6>Behavior Technician/ Therapist</h6>
+         <h4>Apr 2021- Sep 2021</h4>
+         <p>Provided clinical skills instruction and behavior reduction protocols based upon the principles of Applied Behavior Analysis to children with Autism and related developmental disabilities in the home, community, and school settings. Collected, recorded, and summarized data on observable client behavior.</p>
+         <h5>Neurabilities,LLC</h5>
+      </div>
+   </div>
+</section>
+<!-------------------Start  Contact---------------------->
+<section class="contact" id="contact">
+   <div class="center">
+      <h3>Contact Me</h3>
+   </div>
+
+   <div class="contact-form">
+      <form action="">
+         <input type="" placeholder="Your Name" required>
+         <input type="email" name="" id="" placeholder="Email Address" required>
+         <textarea name="" id="" cols="30" rows="10" placeholder="Project Description" required></textarea>
+         <input type="submit" name="" value="Send" class="send-btn">
+      </form>
+   </div>
+</section>
+
+<!-------------------Link to JS----------------------->
+<script type="text/javascript" src="js/script.js"></script>
+
+
+   </body>
+</html>
